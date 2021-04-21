@@ -26,7 +26,7 @@ export class AuthEffects {
     private authService: AuthService,
     private store: Store<AppState>,
     private router: Router
-  ) {}
+  ) { }
 
   login$ = createEffect(() => {
     return this.actions$.pipe(
